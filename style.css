@@ -1,0 +1,150 @@
+/*styling the background using universal selector*/
+*{
+    margin:0;
+    padding:0;
+}
+
+/*styling the body using element selector*/
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color:#ff1493;
+    line-height:1.7;
+
+}
+/*styling the birthday card section using class selector*/
+.birthday-card{
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 40px;
+    padding:20 px;
+    border:3 px;
+    width:800px;
+    height:140px;
+}
+/*styling the header section*/
+header{
+    background:none;
+    text-align:center;
+    padding:30px 20px;
+    border-radius:12 px 12 px 0 0;
+    
+}
+header h1{
+    font-size:medium;
+    font-weight:bold;
+    margin-bottom:10px 10px;
+    font-size:larger;
+    text-transform:uppercase;
+
+}
+header p{
+    font-size:medium;
+    margin-bottom: 0%;
+}
+
+/*Navigation styles*/
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+nav a {
+    color: lightcoral;
+    text-decoration: none;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/*section styling*/
+section{
+    margin:60px;
+    border:10px;
+    padding:10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:peachpuff;
+
+}
+/*image styling*/
+
+figure img{
+    border-radius: 10px;
+    margin:30 px;
+    border: 5px solid #fff; /* white border */
+    box-shadow: 0 0 20px orangered; /* glow effect */
+}
+figcaption{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:10px;
+    
+}
+/*Definition List styling*/
+dl{
+    text-align:center;
+    margin:0;
+}
+dd{
+    color:black;
+    margin-top:3px;
+    margin-bottom: 3px;
+}
+dt{
+    margin-left:20px;
+    margin-bottom:10px;
+}
+
+/*Form styling*/
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    color: #ff1493;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ffc0cb;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff69b4;
+}
+
+/* RSVP button styling */
+.rsvp-button {
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: transform 0.3s ease;
+}
+
+.rsvp-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px pink; /* glow effect */
+
+}

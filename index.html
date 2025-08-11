@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Basics and Box Model</title>
+        <link rel="icon" href="https://images.pexels.com/photos/11035547/pexels-photo-11035547.jpeg"type="favicon.jpeg">
+        <!--External CSS: Linking the HTML file to the CSS file-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+    <!-- Main birthday card invitation-->
+            <div class="birthday-card">
+
+           <!--BIRTHDAY CARD INVITATION DETAILS-->     
+                <header>
+    <h1>Birthday Invitation Card!!</h1>
+        <p>Welcome to Lisa's birthday.Come one ,come all.🎉</p>
+            <nav>
+                <a href="#Event timeline">Event timeline</a>
+                <a href="#Dress code">Dress code</a>
+                <a href="#Party details">Party details</a>
+                <a href="#rsvp">RSVP</a>
+            </nav>
+            </header>
+
+            <!--Event timelines-->
+            <section class="Event timeline" id="Event timeline">
+                <h2>Event timeline</h2>
+                <p>DAY 🗓️: 16th August 2025</p>
+                <p>VENUE 📍:NAIROBI ARBORETUM</p>
+                <p>TIME 🕛:12:00PM -6:00PM</p>
+            </section>
+
+            <!-- Dress code-->
+            <section class="Dress code" id="Dress code">
+                <h2>Dress code</h2>
+                <p>Ladies come dressed in pink and gents in brown!!</p>
+                <figure>
+                <img src="https://images.pexels.com/photos/2043590/pexels-photo-2043590.jpeg"alt="woman dressing in pink"width="200"height="200">
+                <img src="https://images.pexels.com/photos/15647600/pexels-photo-15647600.jpeg"alt="man dressed in brown"width="200"height="200"><br>
+                <figcaption>Use the above images for inspiration</figcaption>
+                </figure>
+            </section>
+
+            <!--Party details-->
+            <section class="Party details" id="Party details">
+                <h2>Party details🪩🎈</h2>
+                <p>Everything you need to know about the fun-filled party:</p>
+                <dl>
+                    <dd><strong>FOOD</strong></dd>
+                    <dt>All you favourite cuisines are lined up from ugali and chicken to pilau and kachumbari</dt>
+                    <dd><strong>MUSIC</strong></dd>
+                    <dt>Some of your favourite musicians will be in attendance from Bien to Matata and some local artists.</dt>
+                    <dd><strong>GAMES</strong></dd>
+                    <dt>Laser tag, ping pong, hide and seek , bicycle riding just to mention some of the games to be played.</dt>
+                    <dd><strong>CAKE</strong></dd>
+                    <dt>Not forgetting the must-have birthday cake styled by local Kenyan cake artists.</dt>
+                </dl>
+             </section>
+
+             <!--RSVP section-->
+             <section class="rsvp-section" id="rsvp">
+                <h2>RSVP</h2>
+                <p>Please let us know you will be attending by filling the form below and clicking the RSVP button below</p>
+                <form>
+                <label for="name">Name:</label>
+                    <input type="text", id= "name", name="Your name" required, placeholder="Enter your name here"><br>
+                <label for="contact info">Contact info:</label>
+                    <input type="tel",id="contact info", name="contact info", placeholder="Enter your contact info here">
+                <br>
+                <!--RSVP button-->
+                    <button class="rsvp-button">RSVP NOW!!</button>
+                </form>
+                </section>
+
+            </div>
+    </body>
+</html>
